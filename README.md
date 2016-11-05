@@ -4,10 +4,10 @@ Template package for writing headless Elm
 This is a sample package that demonstrates how to write an application that can
 be run via node. It works by:
 
-    * Building an elm bundle to `build/elm-bundle.js`
-    * Using `index.js` to bootstrap the Elm application
-    * Using ports to communicate back and forth between Javascript and Elm
-    * Using Html.App.programWithFlags to supply Elm with input when it starts
+* Building an elm bundle to `build/elm-bundle.js`
+* Using `index.js` to bootstrap the Elm application
+* Using ports to communicate back and forth between Javascript and Elm
+* Using Html.App.programWithFlags to supply Elm with input when it starts
 
 Given this setup, its pretty easy to start swapping things out. For example, you
 could use something like JS Commander to write your applicaiton help menu and
